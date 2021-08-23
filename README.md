@@ -13,10 +13,6 @@ plugins:
     run: service
 
 keybinds:
-    unbind: [ Ctrl: 'r', ]
-    normal:
-        - action: [ SwitchToMode: resize, ]
-          key: [ Ctrl: 'e', ]
     plugins:
         sticky-cwd:
             pane:
