@@ -1,0 +1,9 @@
+[package]
+name = "zellij-sticky-cwd"
+version = "0.1.0"
+authors = ["Jesse Tuchsen <not@disclosing>"]
+edition = "2018"
+
+[dependencies]
+zellij-tile = { path = "../zellij/zellij-tile" }
+log = "0.4.x"
